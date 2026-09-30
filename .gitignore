@@ -1,0 +1,16 @@
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+!.env.example.*
+
+# Compilação .NET
+**/bin/
+**/obj/
+
+# Configurações locais de IDE
+.idea/
+.vs/
+*.user
+*.suo
+
